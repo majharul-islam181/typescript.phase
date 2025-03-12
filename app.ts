@@ -24,3 +24,9 @@ let arr1 = [1,2,3,{name1: "Majharul"}, {age: 12}];
 
 //Tuples
 let arr2: [string, number] = ["majharul", 12];
+
+//Enum
+enum UserRole{
+    ADMIN = "admin",
+    SUPER_ADMIN = "super-admin",
+}
